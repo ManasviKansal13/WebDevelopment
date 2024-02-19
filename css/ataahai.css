@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display:flex;
+    background: orange;
+    padding: 0px;
+
+}
+.h{
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color: white;
+}
+.footer{
+    margin: 20px;
+    padding: 2px;
+    font-size: 20px;
+}
+#home{
+    background-color: rgb(116, 101, 82);
+}
+
+.body{
+    margin: 20px;
+    padding: 2px;
+}
+p:hover{
+    background-color: burlywood;
+    
+}
