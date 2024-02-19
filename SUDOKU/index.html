@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff">
+    <title>SUDOKU</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                Sudoku
+            </a>
+            <div class="dark-mode-toggle" id="dark-mode-toggle">
+                <i class="bx bxs-sun"></i>
+                <i class="bx bxs-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="screen">
+            <div class="start-screen" id="start-screen">
+                <input type="text" placeholder="Your Name" maxlength="20" class="input-name" id="input-name">
+                <div class="btn" id="btn-level">Easy</div>
+                <div class="btn" id="btn-continue">Continue</div>
+                <div class="btn btn-blue" id="btn-play">New Game</div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
